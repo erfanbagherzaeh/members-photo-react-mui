@@ -1,0 +1,58 @@
+/* Header.css */
+*{
+    font-family: font1;
+}
+.org {
+    width: 85%;
+    height: 80px;
+    margin: 0 auto;
+    background-color: #ffffff; /* رنگ شیری */
+    box-shadow: none;
+    position: relative;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 0px 0px 20px 20px;
+    font-family: font1;
+  }
+  
+  .org .MuiToolbar-root {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  
+  
+@font-face {
+    font-family: font1;
+    src: url(../../sahel-font-v1.0.0-alpha9/Farsi-Digits/Sahel-Bold-FD.ttf);
+}
+  
+   
+  .search-icon-wrapper {
+    position: absolute;
+    padding: 0 16px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+  }
+  
+  .input-base {
+    color: inherit;
+    padding-left: 40px;
+    width: 100%;
+  }
+  
+  /* ریسپانسیو کردن آیکون‌ها و ورودی */
+  @media (min-width: 600px) {
+    .input-base {
+      width: 20ch;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .icon-buttons {
+      gap: 8px;
+    }
+  }
+  

@@ -1,0 +1,163 @@
+.continior {
+    width: 80%;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px auto;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 20px;
+
+
+}
+
+.continior-child {
+    width: 100%;
+    height: 300px;
+    /* background-color: yellow; */
+    display: flex;
+}
+
+.div-childs {
+    width: 100%;
+    height: 100px;
+    /* background-color: violet; */
+    text-align: right;
+    margin-right: 15px;
+
+}
+
+.name-icon {
+    width: 143px;
+    height: 24px;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    margin-left: 391px;
+    align-items: center;
+
+}
+
+.photo-name {
+    width: 90%;
+    height: 280px;
+    /* background-color: tomato; */
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+
+
+}
+
+.photo {
+
+    width: 257px;
+    height: 256px;
+    border-radius: 284px;
+    /* background-color: black; */
+    background-image: url(https://media.karnaval.ir/members/image/5a82e60c42c49d0a7f40fc03/1518684412-profile.jpg?size=40x40);
+    margin-left: 10px;
+}
+
+.name {
+    font-size: 12px;
+    color: rgb(145, 145, 145);
+}
+
+.right {
+    width: 50%;
+    height: 280px;
+    /* background-color: aqua; */
+    border-radius: 0px 20px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-bottom: 1px solid lightgray;
+}
+
+.left {
+    width: 50%;
+    height: 280px;
+    /* background-color: rgb(8, 18, 112); */
+    border-radius: 20px 0px 0px 0px;
+    border-bottom: 1px solid lightgray;
+
+}
+
+.row-icons {
+    width: 100%;
+    height: 140px;
+    /* background-color: rgb(255, 0, 55); */
+    display: flex;
+    margin-top: -20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.icon1 {
+    width: 400px;
+    height: 140px;
+    /* background-color: burlywood; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.endbox {
+    width: 100%;
+    height: 150px;
+    /* background-color: teal; */
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.box-photo-name {
+    width: 50px;
+    height: 50px;
+    background-image: url(https://media.karnaval.ir/members/image/5a82e60c42c49d0a7f40fc03/1518684412-profile.jpg?size=40x40);
+    border-radius: 300px;
+    background-size: cover;
+    margin-right: 15px;
+    margin-top: -32px;
+}
+.titr-p{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    /* height: 112px; */
+    justify-content: flex-start;
+    margin-top: 20px;
+
+}
+.titr-p h4{
+   color: rgb(58, 58, 216);
+   /* margin-top: 20px; */
+
+
+}
+.titr-p p{
+    color: rgb(124, 124, 124);
+    font-size: 12px;
+    margin-top: -10px;
+ }
+ .input-text{
+    width: 583px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+    background-color: rgb(255, 255, 255);
+    margin-right: -53px;
+    margin-top: 5px;
+    padding: 10px;
+
+ }
+  
+  
+  .input-text::placeholder {
+    color: #999; /* رنگ متن placeholder */
+  }
+  

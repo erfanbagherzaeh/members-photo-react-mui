@@ -1,0 +1,8 @@
+@font-face {
+    font-family: font1;
+    src: url(../sahel-font-v1.0.0-alpha9/Farsi-Digits/Sahel-Bold-FD.ttf);
+}
+*{
+    font-family: font1;
+
+}
